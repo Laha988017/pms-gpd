@@ -3,8 +3,8 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-south-1:274201610284:task-definition/cts-pms-gpd-td:1"
+        TaskDefinition: "arn:aws:ecs:ap-south-1:176275544602:task-definition/cts-pms-gpd-td2:1"
         LoadBalancerInfo:
-          ContainerName: "cts-pms-gpd-container"
+          ContainerName: "cts-pms-gpd-container2"
           ContainerPort: "9001"
         PlatformVersion: "LATEST"
