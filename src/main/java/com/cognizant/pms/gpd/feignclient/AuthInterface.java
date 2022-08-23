@@ -11,4 +11,5 @@ import com.cognizant.pms.gpd.apiResponse.ApiResponse;
 public interface AuthInterface {
 	@RequestMapping(value = "/login/validate-token", method = RequestMethod.GET)
     public ApiResponse validateAuthToken(@RequestHeader("Authorization") String authToken);
+	
 }
